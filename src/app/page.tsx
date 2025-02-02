@@ -1,8 +1,6 @@
 import ProductCard from "@/components/ProductCard"
 import { Button } from "@/components/ui/button"
 import { Skeleton } from "@/components/ui/skeleton"
-import { delay } from "@/lib/utils"
-import { getWixClient } from "@/lib/wix-client.base"
 import { getCollectionBySlug } from "@/wix-api/collections"
 import { queryProducts } from "@/wix-api/products"
 import { ArrowRight } from "lucide-react"

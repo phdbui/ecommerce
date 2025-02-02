@@ -26,9 +26,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           {product.ribbon && <Badge>{product.ribbon}</Badge>}
           {product.discount && <DiscountBadge data={product.discount} />}
 
-          <Badge className="bg-secondary font-semibold text-secondary-foreground">
-            {getFormattedPrice(product)}
-          </Badge>
+          <Badge variant="secondary">{getFormattedPrice(product)}</Badge>
         </div>
       </div>
       <div className="space-y-3 py-3">
