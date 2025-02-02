@@ -28,9 +28,11 @@ export default function Home() {
         </div>
         <div className="relative hidden h-full md:block md:w-1/2">
           <Image
+            priority
             src="/banner.jpg"
             alt="Hero Image"
             fill
+            sizes="100vh"
             className="object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary via-transparent to-transparent" />
